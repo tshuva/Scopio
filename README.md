@@ -100,4 +100,3 @@ large_file.zip: 23%|██▎   | 23/100 [00:45<02:30, 0.51%/s]
 - Uses `ThreadPoolExecutor` for parallel processing
 - Parses rsync's `--progress` output to extract percentages
 - Implements smart file/folder detection for destination handling
-- Graceful handling of interrupted transfers (Ctrl+C)
