@@ -10,17 +10,10 @@ A Python-based command-line tool for transferring files and folders using `rsync
 
 ## Requirements
 
-- Python 3.9+ (uses union type annotations `int | None`)
+- Python 3.9+ (uses union type annotations `int | None`) and UV package manager
 - `rsync` installed on your system
-- Required Python packages:
 
 
-
-
-**Windows:**
-Install through WSL or use rsync for Windows.
-
-## Installation
 ## Installation
 ```bash
 uv sync
